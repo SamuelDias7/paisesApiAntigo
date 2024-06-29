@@ -1,0 +1,114 @@
+#inglaterra{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+
+    
+}
+
+#russia{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+#imgMundo{
+    width: 150px;
+    height: 150px;
+}
+
+#titulo{
+    color: aqua;
+}
+
+#elementosPrincipais{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#divisao{
+    width: 100px;
+    height: 100px;
+    padding-right: 300pxpx
+}
+
+#divInglaterra{
+    display: flex;
+    flex-direction: column ;
+    justify-content: flex-start;
+    background-color: aqua;
+    border: 2px solid black;
+    padding-right: 100px;
+    padding-left: 100px;
+
+    padding-bottom: 30px;
+
+    align-items: center; 
+
+    margin: 30px;
+
+}
+#divRussia{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: blue;
+    border: 2px solid black;
+    padding-right: 100px;
+    padding-left: 100px;
+    align-items: center;
+    margin: 30px;
+}
+
+#tituloRussia{
+    font-family: aria;
+}
+
+#DivtituloInglaterra{
+    align-items: center;
+    margin-bottom: 10px;
+
+
+
+}
+
+#ajustar{
+    justify-content: flex-end;
+}
+
+#tituloInglaterra{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ParagrafoID{
+    color: black;
+    margin-bottom: 120px;
+}
+
+
+
+
+
+main{
+    display: flex;
+}
+
+
+
+main{
+    display: flex;
+}
