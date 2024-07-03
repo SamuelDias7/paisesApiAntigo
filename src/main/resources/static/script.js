@@ -1,17 +1,11 @@
+// script.js
 
-        const data = {
-      "pais": "Russia",
-    "capital": "Moscou"
-        };
-
-        const contentDiv = document.getElementById('content');
-
-        const titleElement = document.createElement('h1');
-        titleElement.textContent = data.title;
-
-        const contentElement = document.createElement('p');
-        contentElement.textContent = data.content;
-
-        contentDiv.appendChild(titleElement);
-        contentDiv.appendChild(contentElement);
-
+document.addEventListener("DOMContentLoaded", function() {
+  fetch('http://localhost:8080/exibir/12')
+      .then(response => response.json())
+      .then(data => {
+          document.getElementById('tituloRussia').textContent = data.pais;
+          document.getElementById('ParagrafoRussia').textContent = data.capital;
+      })
+      .catch(error => console.error('Erro ao buscar dados:', error));
+});

@@ -2,7 +2,7 @@
     text-decoration: none;
     background-color: blue;
     color: white;
-    padding: 5px;
+    padding: 15px;
     border-radius: 10%;
 }
 
@@ -12,7 +12,6 @@ footer{
     padding: 50px;
     text-align: center;
     justify-content: center;
-
     
 }
 
@@ -20,8 +19,9 @@ footer{
     text-decoration: none;
     background-color: green;
     color: white;
-    padding: 5px;
+    padding: 15px;
     border-radius: 10%;
+    padding-left: 15px;
 }
 
 #imgMundo{
@@ -72,6 +72,7 @@ footer{
     padding-left: 100px;
     align-items: center;
     margin: 30px;
+    max-width: 300px;
 }
 
 #tituloRussia{
@@ -101,7 +102,9 @@ footer{
 
 
 
-
+body{
+    background-color: whitesmoke;
+}
 
 main{
     display: flex;
